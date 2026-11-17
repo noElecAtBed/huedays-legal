@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>使用条款 / Terms of Use · 拾色年鉴 Huedays</title>
+  <style>
+:root {
+  --paper: #FAF9F6;
+  --ink: #302D29;
+  --soft: #746F66;
+  --line: #EAE7E0;
+  --accent: #3E4539;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.top {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.brand {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.brand span, h1 span { color: var(--soft); font-weight: 500; }
+nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; }
+nav a, .langs a, .links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+nav a[aria-current="page"] { color: var(--ink); }
+nav a:hover, .langs a:hover, .links a:hover, .brand:hover { text-decoration: underline; }
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+.langs { color: var(--soft); font-size: 0.95rem; margin: 0 0 2rem; }
+h1 { font-size: 1.75rem; font-weight: 650; letter-spacing: -0.02em; line-height: 1.25; margin: 0 0 0.5rem; }
+h2 { font-size: 1.1rem; font-weight: 650; margin: 1.75rem 0 0.4rem; }
+.updated { color: var(--soft); font-size: 0.9rem; margin: 0 0 1.25rem; }
+.intro { margin: 0 0 0.5rem; }
+article p { margin: 0 0 0.25rem; }
+article + article {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--line);
+}
+.links { list-style: none; padding: 0; margin: 2rem 0 0; }
+.links li { margin: 0 0 0.85rem; }
+.links a { font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="./">拾色年鉴 <span>Huedays</span></a>
+    <nav>
+      <a href="privacy.html">隐私政策 / Privacy</a>
+      <a href="terms.html" aria-current="page">使用条款 / Terms</a>
+    </nav>
+  </header>
+  <main>
+    <p class="langs"><a href="#zh">中文</a><span aria-hidden="true"> · </span><a href="#en">English</a></p>
+    <article id="zh" lang="zh-Hans">
+      <h1>使用条款</h1>
+      <p class="updated">最后更新：2026 年 11 月</p>
+      <p class="intro">使用拾色年鉴，即表示你同意以下条款。</p>
+      <h2>使用</h2>
+      <p>拾色年鉴供个人使用。你的照片始终属于你；App 只在手机上读取它们来生成颜色。</p>
+      <h2>分享的内容</h2>
+      <p>你分享的图片由你决定发到哪里，也由你对其内容负责。</p>
+      <h2>免责</h2>
+      <p>颜色由算法从照片中得出，难免与你的感受不同。App 按现状提供，在法律允许的范围内，我们不对因使用 App 造成的间接损失负责。</p>
+      <h2>变更</h2>
+      <p>条款如有变更，会在 App 内更新。继续使用即表示接受新的条款。</p>
+    </article>
+    <article id="en" lang="en">
+      <h1>Terms of Use</h1>
+      <p class="updated">Last updated: November 2026</p>
+      <p class="intro">By using Huedays you agree to these terms.</p>
+      <h2>Use</h2>
+      <p>Huedays is for personal use. Your photos remain yours; the app only reads them on your phone to find their colors.</p>
+      <h2>What you share</h2>
+      <p>You decide where shared images go and are responsible for what they contain.</p>
+      <h2>No warranty</h2>
+      <p>Colors are worked out from photos by an algorithm and may not match how you see them. The app is provided as is; to the extent the law allows, we are not liable for indirect losses from using it.</p>
+      <h2>Changes</h2>
+      <p>If these terms change, the app will show the new version. Continuing to use it means you accept them.</p>
+    </article>
+  </main>
+</body>
+</html>

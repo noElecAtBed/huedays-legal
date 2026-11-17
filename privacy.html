@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私政策 / Privacy Policy · 拾色年鉴 Huedays</title>
+  <style>
+:root {
+  --paper: #FAF9F6;
+  --ink: #302D29;
+  --soft: #746F66;
+  --line: #EAE7E0;
+  --accent: #3E4539;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.top {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.brand {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.brand span, h1 span { color: var(--soft); font-weight: 500; }
+nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; }
+nav a, .langs a, .links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+nav a[aria-current="page"] { color: var(--ink); }
+nav a:hover, .langs a:hover, .links a:hover, .brand:hover { text-decoration: underline; }
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+.langs { color: var(--soft); font-size: 0.95rem; margin: 0 0 2rem; }
+h1 { font-size: 1.75rem; font-weight: 650; letter-spacing: -0.02em; line-height: 1.25; margin: 0 0 0.5rem; }
+h2 { font-size: 1.1rem; font-weight: 650; margin: 1.75rem 0 0.4rem; }
+.updated { color: var(--soft); font-size: 0.9rem; margin: 0 0 1.25rem; }
+.intro { margin: 0 0 0.5rem; }
+article p { margin: 0 0 0.25rem; }
+article + article {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--line);
+}
+.links { list-style: none; padding: 0; margin: 2rem 0 0; }
+.links li { margin: 0 0 0.85rem; }
+.links a { font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="./">拾色年鉴 <span>Huedays</span></a>
+    <nav>
+      <a href="privacy.html" aria-current="page">隐私政策 / Privacy</a>
+      <a href="terms.html">使用条款 / Terms</a>
+    </nav>
+  </header>
+  <main>
+    <p class="langs"><a href="#zh">中文</a><span aria-hidden="true"> · </span><a href="#en">English</a></p>
+    <article id="zh" lang="zh-Hans">
+      <h1>隐私政策</h1>
+      <p class="updated">最后更新：2026 年 11 月</p>
+      <p class="intro">拾色年鉴只在你的手机上工作。下面说明它会读取什么、留下什么，以及不会做什么。</p>
+      <h2>照片</h2>
+      <p>在你允许后，拾色年鉴读取相册里照片的缩略图和拍摄信息（时间、尺寸、是否为截屏等），用来算出每天的颜色。照片和缩略图都不会上传，也不会被复制到别处。</p>
+      <h2>留在手机上的数据</h2>
+      <p>每天的颜色、色板、寻色记录、你选的照片和设置，都保存在这台手机的 App 数据里。删除 App，或在设置里选择「清除所有数据」，它们就会被删除。</p>
+      <h2>没有账号，没有服务器</h2>
+      <p>拾色年鉴不需要注册，没有自己的服务器，不做广告，也不收集使用统计。</p>
+      <h2>分享</h2>
+      <p>只有在你点「分享」或「保存到相册」时，才会生成图片，并交给你选择的 App 或系统相册。之后的处理遵循对方的隐私政策。</p>
+      <h2>联系</h2>
+      <p>对隐私有任何疑问，可以通过 App Store 页面上的开发者联系方式找到我们。</p>
+    </article>
+    <article id="en" lang="en">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: November 2026</p>
+      <p class="intro">Huedays works only on your phone. Here is what it reads, what it keeps, and what it never does.</p>
+      <h2>Photos</h2>
+      <p>With your permission, Huedays reads thumbnails of your photos and their capture details (time, size, whether it is a screenshot) to work out the color of each day. Photos and thumbnails are never uploaded or copied anywhere.</p>
+      <h2>What stays on your phone</h2>
+      <p>Day colors, palettes, hunts, the photos you picked and your settings are stored in the app’s data on this phone. Deleting the app, or choosing “Erase all data” in Settings, removes them.</p>
+      <h2>No account, no server</h2>
+      <p>Huedays has no sign-up and no server of its own. It shows no ads and collects no usage analytics.</p>
+      <h2>Sharing</h2>
+      <p>An image is made only when you tap Share or Save to Photos, and goes only to the app or photo library you choose. From there, that app’s privacy policy applies.</p>
+      <h2>Contact</h2>
+      <p>For any privacy question, reach us through the developer contact on the App Store page.</p>
+    </article>
+  </main>
+</body>
+</html>
