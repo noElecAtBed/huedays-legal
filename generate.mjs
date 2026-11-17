@@ -96,7 +96,9 @@ const indexBody = `    <h1>拾色年鉴 <span>Huedays</span></h1>
     <ul class="links">
       <li><a href="privacy.html">隐私政策 / Privacy Policy</a></li>
       <li><a href="terms.html">使用条款 / Terms of Use</a></li>
-    </ul>`;
+    </ul>
+    <h2>联系与支持 / Support</h2>
+    <p>有问题或建议，请发邮件至 / Questions or feedback: <a href="mailto:junhuihe1128@gmail.com">junhuihe1128@gmail.com</a></p>`;
 
 const files = {
   'index.html': shell({ title: '拾色年鉴 Huedays', active: 'home', body: indexBody }),
